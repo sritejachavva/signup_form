@@ -1,0 +1,25 @@
+/* .name_input {
+    display: flex;
+    margin: 1em;
+}
+.contact_input{
+    display: flex;
+    margin: 1em;
+
+}
+.password_input{
+    display: flex;
+    margin: 1em;
+
+} */
+
+.name_input{
+    display:flex;
+}
+.first_name{
+    display:block;
+}
+
+.last_name{
+    display:block;
+}
