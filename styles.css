@@ -13,13 +13,10 @@
 
 } */
 
-.name_input{
+.name_inputs, .contact_inputs, .password_inputs{
     display:flex;
 }
-.first_name{
+.first_name, .last_name, .phone_input, .email_input, .password_input, .password_reneter_input{
     display:block;
 }
 
-.last_name{
-    display:block;
-}
