@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="myscripts.js"></script>
+    <script src="myscripts.js" defer></script>
     <title>Signup Form</title>
 </head>
 <body>
@@ -25,11 +25,11 @@
         <div class="contact_inputs">
             <div class = "phone_input">
                 <label for="phone">Phone:</label><br>
-                <input type="text" id="phone" name="phone"><br>
+                <input type="text" id="phone" name="phone" pattern = "[0-9]{10}" ><br>
             </div>
             <div class = "email_input">
                 <label for="email">Email:</label><br>
-                <input type="text" id="email" name="email">      
+                <input type="email" id="email" name="email">      
             </div>
         </div>
 
@@ -44,6 +44,8 @@
                 <input type="text" id="password2" name="password2">
             </div>      
         </div>
+
+        <button type="submit" id ="form_submit">Submit</button>
 
     </form>
 

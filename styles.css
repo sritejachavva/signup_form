@@ -1,20 +1,7 @@
-/* .name_input {
-    display: flex;
-    margin: 1em;
-}
-.contact_input{
-    display: flex;
-    margin: 1em;
-
-}
-.password_input{
-    display: flex;
-    margin: 1em;
-
-} */
 
 .name_inputs, .contact_inputs, .password_inputs{
     display:flex;
+    padding: 0.1em;
 }
 .first_name, .last_name, .phone_input, .email_input, .password_input, .password_reneter_input{
     display:block;
