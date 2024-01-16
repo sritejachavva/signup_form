@@ -19,7 +19,7 @@ passwordChecker = function(){
         // pass1 = document.querySelector("input#password");
         // pass2 = document.querySelector("input#password2");
 
-        while((pass1.value != pass2.value) & (alert_present==false)){
+        if((pass1.value != pass2.value) & (alert_present==false)){
 
             (pass2.parentNode).insertBefore(pass_match_text,pass2);
             alert_present = true;
